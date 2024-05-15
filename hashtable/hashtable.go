@@ -82,18 +82,16 @@ func Init() *HashTable {
 	return result
 }
 
-func (h *HashTable) Print() string {
-	var result string
+func (h *HashTable) Print() {
 	for i, b := range h.array {
-		result += fmt.Sprintf("Bucket %d: ", i)
+		fmt.Printf("Bucket %d:",i)
 		currentNode := b.head
 		for currentNode != nil {
-			result += fmt.Sprintf("%s -> ", currentNode.key)
+			fmt.Printf(" %s -> ", currentNode.key)
 			currentNode = currentNode.Next
 		}
-		result += "nil\n"
+		fmt.Print(" nil\n")
 	}
-	return result
 }
 
 func main() {
@@ -110,5 +108,5 @@ func main() {
 	}
 
 	h.Delete("RANDY")
-	fmt.Println(h.Print())
+	h.Print()
 }
