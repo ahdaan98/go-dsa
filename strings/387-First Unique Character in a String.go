@@ -1,17 +1,17 @@
 package strings
 
-func firstUniqChar(s string) int {
-    count := make([]int,26)
+// func firstUniqChar(s string) int {
+//     count := make([]int,26)
 
-    for _,c := range s{
-        count[c-'a']++
-    }
+//     for _,c := range s{
+//         count[c-'a']++
+//     }
 
-    for i,char := range s{
-        if count[char-'a'] == 1 {
-            return i
-        }
-    }
+//     for i,char := range s{
+//         if count[char-'a'] == 1 {
+//             return i
+//         }
+//     }
 
-    return -1
-}
+//     return -1
+// }
