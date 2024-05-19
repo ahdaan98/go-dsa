@@ -8,6 +8,7 @@ type Operations interface {
 	AddNodeBeforeAValue(before,new int)
 	AddNodeAfterAValue(after,new int)
 	DeleteNode(val int)
+	Sort()
 	Print()
 	PrintReverse()
 }
@@ -115,6 +116,28 @@ func (li *LinkedList) AddNodeAfterAValue(after,new int){
 	}
 }
 
+func (li * LinkedList) Sort() {
+	if li.head == nil || li.head.Next == nil {
+		return
+	}
+
+	swapped := true
+	for swapped {
+		swapped = false
+		prev := li.head
+		current:= li.head.Next
+
+		for current != nil {
+			if prev.Val > current.Val {
+				prev.Val,current.Val = current.Val,prev.Val
+				swapped = true
+			} 
+			prev = current
+			current = current.Next
+		}
+	}
+}
+
 func (li *LinkedList) Print() {
 	current := li.head
 	for current != nil {
@@ -152,6 +175,8 @@ func main() {
 
 	li.AddNodeBeforeAValue(8,13)
 	li.AddNodeAfterAValue(7,12)
+
+	li.Sort()
 
 	fmt.Println("Orginal Linked List:")
 	li.Print()
