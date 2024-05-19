@@ -9,6 +9,7 @@ type Operations interface {
 	AddNodeAfterAValue(after,new int)
 	DeleteNode(val int)
 	Sort()
+	DeleteDuplicate()
 	Print()
 	PrintReverse()
 }
@@ -138,6 +139,21 @@ func (li * LinkedList) Sort() {
 	}
 }
 
+func (li *LinkedList) DeleteDuplicate() {
+	if li.head == nil {
+		return
+	}
+
+	current := li.head
+	for current.Next != nil {
+		if current.Val == current.Next.Val {
+			current.Next = current.Next.Next
+		} else {
+			current = current.Next
+		}
+	}
+}
+
 func (li *LinkedList) Print() {
 	current := li.head
 	for current != nil {
@@ -162,21 +178,19 @@ func (li *LinkedList) PrintReverseHelper(node *Node){
 func main() {
 	li := NewLinkedListOperations()
 
-	nums := []int{1, 2, 3, 4, 5}
+	nums := []int{1, 9, 10, 4, 5, 9, 5}
 	for _, n := range nums {
 		li.AddNodeAtBeginning(n)
 	}
 
 	li.AddNodeAtEnd(6)
-	li.AddNodeAtEnd(7)
-	li.AddNodeAtEnd(8)
 
-	li.DeleteNode(6)
+	li.DeleteNode(1)
 
 	li.AddNodeBeforeAValue(8,13)
-	li.AddNodeAfterAValue(7,12)
 
 	li.Sort()
+	li.DeleteDuplicate()
 
 	fmt.Println("Orginal Linked List:")
 	li.Print()
