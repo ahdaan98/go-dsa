@@ -65,6 +65,25 @@ func (n *Node) search(key int) bool{
 	return found
 }
 
+func (t *Tree) validbst() bool {
+	if t == nil {
+		return true
+	}
+	return t.root.validbst(-99999,99999)
+}
+
+func (n *Node) validbst(min,max int) bool {
+	if n == nil {
+		return true
+	}
+
+	if n.key <= min || n.key >= max {
+		return false
+	}
+
+	return n.left.validbst(min,n.key) && n.Right.validbst(n.key,max)
+}
+
 func PrintPreOrder(n *Node) {
 	if n == nil {
 		return
@@ -109,6 +128,8 @@ func main() {
 	PrintPostOrder(t.root)
 	fmt.Println("\nIn Order:")
 	PrintInOrder(t.root)
+
+	fmt.Printf("valid bst: %v",t.validbst())
 
 	fmt.Println("\nKey exist:",t.Search(7))
 }
