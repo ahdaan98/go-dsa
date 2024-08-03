@@ -5,20 +5,19 @@ package leetcode
 //       Next *ListNode
 //   }
 //
-//  func removeNthFromEnd(head *ListNode, n int) *ListNode {
-//     dummyHead := &ListNode{Val: -1, Next: head}
-
-//     prev,current := dummyHead,dummyHead
-    
-//     for current.Next != nil {
-//         if n <= 0{
-//             prev = prev.Next
-//         }
-
-//         current = current.Next
-//         n--
+// func removeNthFromEnd(head *ListNode, n int) *ListNode {
+//     dummy := &ListNode{Val: 0, Next: head}
+//     right := dummy
+//     for i := 0; i<=n; i++{
+//         right = right.Next
 //     }
 
-//     prev.Next = prev.Next.Next
-//     return dummyHead.Next
+//     left := dummy
+//     for right != nil{
+//         left = left.Next
+//         right = right.Next
+//     }
+
+//     left.Next = left.Next.Next
+//     return dummy.Next
 // }
