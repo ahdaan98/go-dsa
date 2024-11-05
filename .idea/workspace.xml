@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc56fac9-da77-465c-adfb-8bc3f4048409" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/array/1-Two_Sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/array/1-Two_Sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/121. Best Time to Buy and Sell Stock.go" beforeDir="false" afterPath="$PROJECT_DIR$/array/121. Best Time to Buy and Sell Stock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/217. Contains Duplicate.go" beforeDir="false" afterPath="$PROJECT_DIR$/array/217. Contains Duplicate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bst/bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/bst/bst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bst/leetcode/100.go" beforeDir="false" afterPath="$PROJECT_DIR$/bst/leetcode/100.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bst/leetcode/104.go" beforeDir="false" afterPath="$PROJECT_DIR$/bst/leetcode/104.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bst/leetcode/110.go" beforeDir="false" afterPath="$PROJECT_DIR$/bst/leetcode/110.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bst/leetcode/226.go" beforeDir="false" afterPath="$PROJECT_DIR$/bst/leetcode/226.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/graph/graph.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashtable/hashtable.go" beforeDir="false" afterPath="$PROJECT_DIR$/hashtable/hashtable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/heap.go" beforeDir="false" afterPath="$PROJECT_DIR$/heap/heap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/doublylinkedlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/doublylinkedlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/leetcode/141.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/leetcode/141.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/leetcode/143.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/leetcode/143.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/leetcode/19.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/leetcode/19.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/leetcode/209.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/leetcode/209.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/leetcode/21.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/leetcode/21.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/leetcode/23.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/leetcode/23.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/leetcode/83.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/leetcode/83.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/linkedlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/linkedlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/queue/queue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/binarysearch.go" beforeDir="false" afterPath="$PROJECT_DIR$/search/binarysearch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/linearsearch.go" beforeDir="false" afterPath="$PROJECT_DIR$/search/linearsearch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/bubblesort/bubblesort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/bubblesort/bubblesort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/insertionsort/insertionsort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/insertionsort/insertionsort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/mergesort/mergesort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/mergesort/mergesort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/quicksort/quicksort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/quicksort/quicksort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/selectionsort/selectionsort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/selectionsort/selectionsort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/stack/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings/2351-First Letter to Appear Twice.go" beforeDir="false" afterPath="$PROJECT_DIR$/strings/2351-First Letter to Appear Twice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings/387-First Unique Character in a String.go" beforeDir="false" afterPath="$PROJECT_DIR$/strings/387-First Unique Character in a String.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/trie.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///snap/go/current" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2oLL3sZ5kD9VVg0FRerMWcghdS3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Go Build.go build github.com/ahdaan98/go-dsa/bst.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/ahdaan-hashim/GOLANG/dsa",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="go build github.com/ahdaan98/go-dsa/bst" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="dsa" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ahdaan98/go-dsa/bst" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/bst/bst.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/ahdaan98/go-dsa/bst" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-5df93f7ad4aa-df9ad98b711f-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.23339.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-GO-242.23339.24" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/bst/bst.go</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

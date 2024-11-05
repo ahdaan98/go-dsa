@@ -90,6 +90,7 @@ func PrintPreOrder(n *Node) {
 	} else {
 		fmt.Printf("%d ", n.key)
 		PrintPreOrder(n.left)
+
 		PrintPreOrder(n.Right)
 	}
 }
@@ -130,6 +131,7 @@ func main() {
 	PrintInOrder(t.root)
 
 	fmt.Printf("valid bst: %v",t.validbst())
+	
 
 	fmt.Println("\nKey exist:",t.Search(7))
 }
